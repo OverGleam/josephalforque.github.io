@@ -115,4 +115,12 @@ html, body {
 		flex: 1 auto;
 		height: 50vh;
 	}
+
+	.sidenav {
+		padding-top: 15px;
+	}
+
+  	.sidenav a {
+  		font-size: 18px;
+  	}
 }
