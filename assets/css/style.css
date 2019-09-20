@@ -1,0 +1,53 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	color: #b3b3b3;
+}
+
+.right-side {
+	flex: 1;
+	padding: 5rem;
+	flex-direction: column;
+	display: flex;
+}
+
+.right-side .title {
+	margin-bottom: .5rem;
+	color: #000;
+}	
+
+.right-side .position {
+	    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.right-side p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.8;
+}
+
+.social-media {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.social-media span {
+	padding-right: 1rem;
+	margin-top: 2rem;
+}
+
+.left-side {
+	flex: 1;
+	background: url("../img/joebaks.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
