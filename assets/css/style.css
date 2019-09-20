@@ -7,6 +7,7 @@ html, body {
 .main {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	height: 100%;
 	color: #b3b3b3;
 }
@@ -50,4 +51,20 @@ html, body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+@media (max-width: 575.98px) {
+	.main {
+		flex-wrap: wrap-reverse;
+		height: auto;
+	}
+	.right-side {
+		flex: 1 auto; 
+		padding: 1rem;
+	}
+
+	.left-side {
+		flex: 1 auto;
+		height: 50vh;
+	}
 }
