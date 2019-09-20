@@ -43,10 +43,13 @@ html, body {
 	position: absolute;
     display: flex;
     justify-content: flex-end;
-    width: 100%;
-    right: 1%;
-    top: 1%;
+    right: 0;
+    top: 0;
     color: #000;
+    left: 0;
+    padding: .5rem;
+    justify-content: flex-end;
+    display: flex;
 }
 /*end*/
 
